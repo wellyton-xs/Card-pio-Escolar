@@ -1,0 +1,32 @@
+{
+  "name": "card-pio-escolar",
+  "version": "1.0.0",
+  "description": "aplicação para gerenciar cardápios escolares",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alana-V/Card-pio-Escolar.git"
+  },
+  "keywords": [
+    "escola",
+    "cardapio",
+    "ejs",
+    "fastify"
+  ],
+  "author": "Alana Vitória, Gabriel Marçal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Alana-V/Card-pio-Escolar/issues"
+  },
+  "homepage": "https://github.com/Alana-V/Card-pio-Escolar#readme",
+  "dependencies": {
+    "@fastify/static": "^8.0.4",
+    "@fastify/view": "^10.0.2",
+    "ejs": "^3.1.10",
+    "fastify": "^5.2.1"
+  }
+}
